@@ -1,9 +1,11 @@
-package Unidad2;
+package Unidad3;
+
+import javax.swing.*;
 
 public class Unidimensional {
     public static void main(String[]args){
 
-        int numero[];
+        int[] numero;
 
         numero = new int[10];
 
@@ -18,5 +20,6 @@ public class Unidimensional {
         numero[8] = 9;
         numero[9] = 10;
 
+        JOptionPane.showMessageDialog(null,"El resultado de la posicion 3 es: \n"+numero[2]);
     }
 }
